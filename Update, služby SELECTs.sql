@@ -1,11 +1,11 @@
 USE QUATRO 
 
 ----------------------------------------------------------------------------------------------
---SELECT k updatu osobnıch, kontaktnıch údajov, k zaloením slubam, generovaniu dokumentov
+--SELECT k updatu osobnÃ½ch, kontaktnÃ½ch Ãºdajov, k zaloÅ¾enÃ­m sluÅ¾bam, generovaniu dokumentov
 ----------------------------------------------------------------------------------------------
 
---update osobnıch, kontaktnıch údajov
---monos vyh¾adania cez dáta napriklad emailu, Mena, priezviska
+--update osobnÃ½ch, kontaktnÃ½ch Ãºdajov
+--moÅ¾nost vyhladania cez dÃ¡ta napriklad emailu, Mena, priezviska
 SELECT *
 FROM [eshop-dw-subscriber].updating_data
 WHERE business_key = '47749a15-d260-4353-973e-c75840f5a522'
@@ -14,7 +14,7 @@ ORDER by created_at DESC
 
 
 
--- Postupovanie iadosti jednotlivımi slubami
+-- Postupovanie Å¾iadosti jednotlivÃ½mi sluÅ¾bami
 SELECT *
 FROM [identifier-manager].identifier
 WHERE business_key = 'a16ccb59-1414-4ff5-b078-350a9539c05c'
