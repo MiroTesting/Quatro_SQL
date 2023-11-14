@@ -1,12 +1,12 @@
 USE QUATRO 
 
 -------------------------------------------------------------------
---SELECTY hodiace sa k zistovaniu chıb, vhode pri zadavani defektu
+--SELECTY hodiace sa k zistovaniu chÃ½b, vhodne pri zadavani defektu
 -------------------------------------------------------------------
 
 
---Monitorovanie chıb, SELECT nastavenı tak e zobrazuje len chybové hlásenia, vhodné pri zisovaní príèin, preèo napríklad iadosti padajú resp. nefunguju
---Monitoring prebieha kadıch 5 minút
+--Monitorovanie chÃ½b, SELECT nastavenÃ½ tak Å¾e zobrazuje len chybovÃ© hlÃ¡senia, vhodnÃ© pri zistovanÃ­ prÃ­cin, preco naprÃ­klad Å¾iadosti padajÃº resp. nefunguju
+--Monitoring prebieha kaÅ¾dÃ½ch 5 minÃºt
 
 SELECT *
 FROM [quatro_monitoring].quatro_monitoring
